@@ -1,0 +1,15 @@
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\bin\Debug\net5.0\Entities.deps.json
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\bin\Debug\net5.0\Entities.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\bin\Debug\net5.0\ref\Entities.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\bin\Debug\net5.0\Entities.pdb
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\bin\Debug\net5.0\Core.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\bin\Debug\net5.0\Core.pdb
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\ref\Entities.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Entities\obj\Debug\net5.0\Entities.pdb

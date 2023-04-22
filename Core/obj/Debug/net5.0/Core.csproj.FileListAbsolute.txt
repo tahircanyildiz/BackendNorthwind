@@ -1,0 +1,12 @@
+C:\Users\Tahir\source\repos\NortwindBackend\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\Tahir\source\repos\NortwindBackend\Core\bin\Debug\net5.0\Core.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\Core.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\Tahir\source\repos\NortwindBackend\Core\obj\Debug\net5.0\Core.pdb
