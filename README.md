@@ -15,7 +15,7 @@
    ```sh
    git clone https://github.com/tahircanyildiz/BackendNorthwind.git
    ```
-2. Open the `RentACar.sln` file with `Visual Studio`
+2. Open the `NortwindBackend.sln` file with `Visual Studio`
 3. Open the `appsettings.json` file in the `WebApi` folder and enter your own database connection string
 4. Open `Package Manager Console - Default Project: DataAccess` and run the following commands for migrate database:
 
