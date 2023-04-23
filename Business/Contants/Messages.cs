@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,5 +20,6 @@ namespace Business.Contants
         public static string UserAlreadyExists = "Kullanici zaten kayitli !";
         public static string AccessTokenCreated = "Token olusturuldu: ";
         public static string UserRegistered = "Kayit olundu. ";
+        public static string AuthorizationDenied = "Yetkiniz yok !!!";
     }
 }

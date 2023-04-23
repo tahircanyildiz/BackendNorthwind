@@ -85,3 +85,6 @@ C:\Users\Tahir\source\repos\NortwindBackend\WebAPI\bin\Debug\net5.0\Microsoft.As
 C:\Users\Tahir\source\repos\NortwindBackend\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\Tahir\source\repos\NortwindBackend\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\Tahir\source\repos\NortwindBackend\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Tahir\source\repos\NortwindBackend\WebAPI\bin\Debug\net5.0\log4net.dll
+C:\Users\Tahir\source\repos\NortwindBackend\WebAPI\bin\Debug\net5.0\log4net.config
+C:\Users\Tahir\source\repos\NortwindBackend\WebAPI\bin\Debug\net5.0\MicroKnights.Log4NetAdoNetAppender.dll

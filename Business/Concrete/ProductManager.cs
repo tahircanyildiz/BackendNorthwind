@@ -1,9 +1,13 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Contants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Logging;
+using Core.Aspects.Autofac.Performance;
 using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -29,10 +33,10 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
         }
-
+        [PerformanceAspect(10)]
         public IDataResult<List<Product>> GetList()
         {
-            if (DateTime.Now.Hour == 22)
+            if (DateTime.Now.Hour == 18)
             {
                 return new ErrorDataResult<List<Product>>("Bakim zamani oldugu icin listelenemiyor"); ;
             }
@@ -42,12 +46,17 @@ namespace Business.Concrete
             }
         }
         [CacheAspect(duration:10)]
+       // [SecuredOperation("Product.List,Admin")]
+        //[PerformanceAspect(10)]
+        [LogAspect(typeof(FileLogger))]
+        [CacheAspect(10)]
         public IDataResult<List<Product>> GetListByCategory(int categoryId)
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetList(p => p.CategoryId == categoryId).ToList());
         }
         [ValidationAspect(typeof(ProductValidator))]
         [CacheRemoveAspect("IProductService.Get")]
+        [PerformanceAspect(10)]
         public IResult Add(Product product)
         {
             _productDal.Add(product);
